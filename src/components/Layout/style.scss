@@ -1,0 +1,17 @@
+@import '../../utils/scss/colors';
+
+.layout-main-wrapper {
+  .logo-container {
+    .logo-arrow {
+      cursor: pointer;
+      color: #d60000;
+      margin-right: -10px;
+    }
+    .logo-text {
+      cursor: pointer;
+      font-size: 18px;
+      font-weight: bold;
+      padding: 20px 0;
+    }
+  }
+}

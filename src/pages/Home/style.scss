@@ -1,0 +1,29 @@
+@import '../../utils/scss/colors';
+
+.home-page-container {
+  background-color: rgb(238, 238, 238);
+  padding: 40px 40px;
+  .employee-container {
+    .column-titles-container {
+      padding: 20px 20px;
+      background: rgb(255, 255, 255);
+      margin: 3px 0;
+      .column-title {
+        font-size: 16px;
+        color: rgb(214, 0, 0);
+        font-weight: bold;
+      }
+    }
+    .employee-details {
+      padding: 20px 20px;
+      background: rgb(255, 255, 255);
+      margin: 3px 0;
+    }
+    .employee-details:hover {
+      background: rgb(0, 0, 0);
+      color: white;
+      transition: 0.3s;
+      cursor: pointer;
+    }
+  }
+}
